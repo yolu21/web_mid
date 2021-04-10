@@ -1,0 +1,21 @@
+body{
+    text-align :center;
+}
+li{
+    position:relative;
+    left:38%;
+    text-align :left;
+}
+img{
+    width :400px;
+    height: 250px;
+}
+
+div{
+    position:absolute;
+    left:38%;
+    top:30%;
+    width :400px;
+    height: 250px;
+    border-style:hidden;
+}

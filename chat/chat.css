@@ -1,0 +1,42 @@
+
+img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+.chatodd img{
+    float:left;
+}
+.chateven img{
+    float:right;
+}
+.textleft, .textright{
+    height:85px;
+    margin:20px 80px;
+    padding: 5px;
+    border-radius:10px;
+}
+.textright{
+    background-color: rgb(147, 167, 173);
+}
+.textleft{
+    background-color: rgb(201, 126, 138);
+}
+.triAngleToleft{
+    border-color:transparent rgb(201, 126, 138) transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    width: 0px;
+    height:0px;
+    float:left;
+    margin-top: 10px;
+}
+.triAngleToright{
+    border-color:transparent transparent transparent rgb(147, 167, 173);
+    border-style: solid;
+    border-width: 10px;
+    width: 0px;
+    height:0px;
+    float:right;
+    margin-top: 10px;
+}
