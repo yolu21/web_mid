@@ -1,0 +1,97 @@
+
+#sun{
+    width:180px;
+    height:180px;
+    position: relative;
+    left:-5%;
+    -webkit-animation: 'sun' 1s linear infinite;
+    animation: 'sun' 1s linear infinite;
+}
+@-webkit-keyframes sun{
+    from{transform: scale(1,1);}
+    to{transform: scale(1.25,1.25);}
+}
+@keyframes sun{
+    from{transform: scale(1,1);}
+    to{transform: scale(1.25,1.25);}
+}
+#cl1{
+    width:100px;
+    height:100px;
+    -webkit-animation: 'cl1' 10s linear infinite;
+    animation: 'cl1' 10s linear infinite;
+}
+@-webkit-keyframes cl1{
+    from{transform:translateX(600px);}
+    to{transform: translateX(100px);}
+}
+@keyframes cl1{
+    from{transform: translateX(600px);}
+    to{transform: translateX(100px);}
+}
+#cl2{
+    width:150px;
+    height:150px;
+    -webkit-animation: 'cl2' 8s linear infinite;
+    animation: 'cl2' 8s linear infinite;
+}
+@-webkit-keyframes cl2{
+    from{transform:translateX(-100px);}
+    to{transform: translateX(600px);}
+}
+@keyframes cl2{
+    from{transform: translateX(-100px);}
+    to{transform: translateX(600px);}
+}
+#cl3{
+    width:250px;
+    height:250px;
+    -webkit-animation: 'cl3' 15s linear infinite;
+    animation: 'cl3' 15s linear infinite;
+}
+@-webkit-keyframes cl3{
+    from{transform:translateX(-500px);}
+    to{transform: translateX(800px);}
+}
+@keyframes cl3{
+    from{transform: translateX(-500px);}
+    to{transform: translateX(800px);}
+}
+#cl4{
+    width:80px;
+    height:80px;
+    -webkit-animation: 'cl4' 5s linear infinite;
+    animation: 'cl4' 5s linear infinite;
+}
+@-webkit-keyframes cl4{
+    from{transform:translateX(300px);}
+    to{transform: translateX(-520px);}
+}
+@keyframes cl4{
+    from{transform: translateX(300px);}
+    to{transform: translateX(-520px);}
+}
+.road{
+    width: 250px;
+    height: 30px;
+    background-color: yellow;
+    position: relative;
+    left:80px;
+    top:40%;
+}
+.road1{
+    width: 250px;
+    height: 30px;
+    background-color: yellow;
+    position: relative;
+    left:580px;
+    top:30%;
+}
+.road2{
+    width: 250px;
+    height: 30px;
+    background-color: yellow;
+    position: relative;
+    left:1080px;
+    top:20%;
+}

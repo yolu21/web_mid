@@ -1,4 +1,17 @@
-
+body{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    line-height: 28px;
+    z-index: 1;
+    background-image: url("back.jpg");
+}
 img{
     width:60px;
     height:60px;
@@ -39,4 +52,18 @@ img{
     height:0px;
     float:right;
     margin-top: 10px;
+}
+.read{
+    color:rgb(224, 224, 200);
+    position: relative;
+    font-size: 10px;
+    top:60px;
+    right:35px;
+}
+.lread{
+    color:rgb(201, 126, 138);
+    position: relative;
+    font-size: 10px;
+    top:60px;
+    left:450px;
 }

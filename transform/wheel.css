@@ -1,21 +1,35 @@
-#rect{
-    width:350px;
-    height:150px;
-    margin:-60px 0px 0px 100px;
-    background-color: aqua;
-    border-radius: 20px 20px 0px 0px;
-}
 #rect1{
-    border-radius: 50px;
-    width:200px;
+    width:300px;
+    height:85px;
+    margin:-60px 0px 0px 100px;
+    background-color: rgb(0, 144, 211);
+    border-radius: 80px 80px 10px 10px;
+}
+#rect{
+    border-radius: 90px 90px;
+    width:150px;
     height:150px;
-    margin:100px 100px 0px 175px;
-    background-color: rgb(1, 156, 156);
+    margin:-145px 100px -85px 173px;
+    background-color: rgb(92, 195, 255) ;
+}
+#rect3{
+    width:300px;
+    height:85px;
+    margin:-60px 0px 0px 100px;
+    background-color: rgb(255, 107, 9);
+    border-radius: 80px 80px 10px 10px;
+}
+#rect2{
+    border-radius: 90px 90px;
+    width:150px;
+    height:150px;
+    margin:-145px 100px -85px 173px;
+    background-color: rgb(255, 0, 0) ;
 }
 img{
-    width:100px;
-    height:100px;
-    margin:-40px 0px 0px 115px;
+    width:50px;
+    height:50px;
+    margin:-40px 0px 0px 130px;
 }
 img{
     -webkit-animation: 'rotate1' 1s linear infinite;
@@ -28,4 +42,40 @@ img{
 @keyframes rotate1{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
+}
+#car1{
+    -webkit-animation: 'car1' 5s linear infinite;
+    animation: 'car1' 5s linear infinite;
+}
+@-webkit-keyframes car1{
+    from{transform: translateX(-30px);}
+    to{transform: translateX(500px);}
+}
+@keyframes car1{
+    from{transform: translateX(-30px);}
+    to{transform: translateX(500px);}
+}
+img{
+    -webkit-animation: 'rotate2' 1s linear infinite;
+    animation: 'rotate2' 1s linear infinite;
+}
+@-webkit-keyframes rotate2{
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+}
+@keyframes rotate2{
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+}
+#car2{
+    -webkit-animation: 'car2' 5s linear infinite;
+    animation: 'car2' 5s linear infinite;
+}
+@-webkit-keyframes car2{
+    from{transform: translateX(600px);}
+    to{transform: translateX(10px);}
+}
+@keyframes car2{
+    from{transform: translateX(600px)translateX(600px);}
+    to{transform: translateX(10px);}
 }
